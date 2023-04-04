@@ -1,0 +1,30 @@
+<table border="1">
+  <tr>
+    <th>
+      ID
+    </th>
+
+    <th>
+      Image
+    </th>
+
+    <th>
+      Title
+    </th>
+
+    <th>
+      Year
+    </th>
+
+    <th>
+      Director
+    </th>
+
+    <th>
+    </th>
+  </tr>
+
+  <% movies.each do |movie| %>
+    <%= render "movie_templates/movie_row", movie: movie %>
+  <% end %>
+</table>

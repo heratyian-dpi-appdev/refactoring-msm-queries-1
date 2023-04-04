@@ -1,0 +1,23 @@
+<tr>
+  <td>
+    <%= character.movie.title %>
+  </td>
+
+  <td>
+    <%= character.movie.year %>
+  </td>
+
+  <td>
+    <%= character.movie.director.name %>
+  </td>
+
+  <td>
+    <%= character.name %>
+  </td>
+
+  <td>
+    <a href="/movies/<%= character.movie.id %>">
+      Show details
+    </a>
+  </td>
+</tr>

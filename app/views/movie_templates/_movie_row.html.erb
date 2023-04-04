@@ -1,0 +1,27 @@
+<tr>
+  <td>
+    <%= movie.id %>
+  </td>
+
+  <td>
+    <img src="<%= movie.image %>">
+  </td>
+
+  <td>
+    <%= movie.title %>
+  </td>
+
+  <td>
+    <%= movie.year %>
+  </td>
+
+  <td>
+    <%= movie.director.name %>
+  </td>
+
+  <td>
+    <a href="/movies/<%= movie.id %>">
+      Show details
+    </a>
+  </td>
+</tr>
